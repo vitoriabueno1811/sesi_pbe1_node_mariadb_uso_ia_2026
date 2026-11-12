@@ -1,18 +1,18 @@
 # Gestão de Resíduos Sólidos
 
  ## Resíduos Sólidos - Back-End
- Backend para o gerenciamento de usuários e ocorrências. O sistema permite cadastrar, listar, atualizar e excluir usuários e ocorrências.
+ Backend para o Registramento sobre o Uso de IA(inteligência Artificial). O sistema permite cadastrar, listar, atualizar e excluir usuários e ocorrências.
  
  ---
 
 ## MER & DER conceitual e lógico
 ---
-![MER e DER](./docs/der_residuos.png)
+![MER e DER](./prints/der_uso_ia.png)
 
 ---
 ## UML - DC (Diagrama de Classe)
 ---
-![UMLDC](./docs/UML-residuos.drawio.png)
+![UMLDC](./prints/UMLusuia.drawio.png)
 
 ---
 
@@ -32,7 +32,7 @@
 
  - npm init -y
  - npm i express cors
- - npm install mysql
+ - npm install mysql2
  - npm run dev
 
 2 - Inicie uma nova página no Insomnia, usando o link do servidor, e teste os códigos.
@@ -43,45 +43,43 @@
 ---
  - Listar Usuários
 
-![listar_usu](./docs/Usuarios_listarGET.png)
+![listar_usu](./prints/usuia_listarGET.png)
 
  - Login Usuários
 
- ![login_usu](./docs/Usuario_loginPOST.png)
+ ![login_usu](./prints/usuia_loginPOST.png)
 
   - Cadastrar Usuários
 
-![Cadastro_usu](./docs/Usuarios_CadastrarPOST.png)
-
-![Cadastro_usu](./docs/Usuarios_CadastrarGET.png)
+![Cadastro_usu](./prints/usuia_cadastrarPOST.png)
 
  - Alterar Usuários 
 
- ![Alterar_usu](./docs/Usuarios_alterarPUT.png)
+ ![Alterar_usu](./prints/usuia_alterarPUT.png)
 
- ![Alterar_usu](./docs/Usuarios_alterarGET.png)
+ ![Alterar_usu](./prints/usuia_alterarGET.png)
 
   - Excluir Usuários 
 
-![Excluir_usu](./docs/Usuarios_excluirDELETE.png)
+![Excluir_usu](./prints/usuia_excluirDELETE.png)
 
-![Excluir_usu](./docs/Usuarios_ExcluirGET.png)
+![Excluir_usu](./prints/usuia_excluirGET.png)
 
- - Listar Ocorrências
+ - Listar Uso IAs
 
- ![Listar_Oco](./docs/Oco_listarGET.png)
+ ![Listar_Oco](./prints/)
 
-  - Cadastrar Ocorrencias 
+  - Cadastrar Uso IAs 
 
 ![Cadastro_Oco](./docs/Oco_CadastrarPOST.png)
 
-   - Alterar Ocorrencias
+   - Alterar Uso IAs
 
 ![Alterar_Oco](./docs/Oco_AlterarPUT.png)
 
 ![Alterar_Oco](./docs/Oco_AlterarGET.png)
 
- - Excluir Ocorrencias 
+ - Excluir Uso IAs 
 
  ![Excluir_Oco](./docs/Oco_ExcluirDELETE.png)
 
