@@ -26,7 +26,7 @@ const alterar = async (req, res) => {
         const resposta = await usoiaModel.alterar(req.body, req.params.id);
 
         if (resposta.affectedRows == 1) {
-            res.status(200).end();
+            res.status(200).json({ mensagem: "Usoia alterado com sucesso!" }).end();
         } else {
             res.status(404).json({ error: "Usoia não encontrado" }).end();
         }
@@ -40,7 +40,7 @@ const excluir = async (req, res) => {
         const resposta = await usoiaModel.excluir(req.params.id);
 
         if (resposta.affectedRows == 1) {
-            res.status(200).end();
+            res.status(200).json({ mensagem: "Usoia excluído com sucesso!" }).end();
         } else {
             res.status(404).json({ error: "Usoia não encontrado" }).end();
         }

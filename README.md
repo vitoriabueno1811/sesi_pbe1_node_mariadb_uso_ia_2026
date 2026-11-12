@@ -47,7 +47,7 @@
 
  - Login Usuários
 
- ![login_usu](./prints/usuia_loginPOST.png)
+ ![login_usu](./prints/usoia_loginPOST.png)
 
   - Cadastrar Usuários
 
@@ -67,22 +67,24 @@
 
  - Listar Uso IAs
 
- ![Listar_Oco](./prints/)
+ ![Listar_Oco](./prints/Usoia_listarGET.png)
 
   - Cadastrar Uso IAs 
 
-![Cadastro_Oco](./docs/Oco_CadastrarPOST.png)
+![Cadastro_Oco](./prints/Uso_cadastrarPOST.png)
+
+![Cadastro_Oco](./prints/Uso_cadastrarGET.png)
 
    - Alterar Uso IAs
 
-![Alterar_Oco](./docs/Oco_AlterarPUT.png)
+![Alterar_Oco](./prints/Usoia_alterarPUT.png)
 
-![Alterar_Oco](./docs/Oco_AlterarGET.png)
+![Alterar_Oco](./prints/Usoia_alterarGET.png)
 
  - Excluir Uso IAs 
 
- ![Excluir_Oco](./docs/Oco_ExcluirDELETE.png)
+ ![Excluir_Oco](./prints/Usoia_excluirDELETE.png)
 
- ![Excluir_Oco](./docs/Oco_ExcluirPUT.png)
+ ![Excluir_Oco](./prints/Usoia_excluirGET.png)
 
  ---
