@@ -1,6 +1,6 @@
-# Gestão de Resíduos Sólidos
+# REGISTRO USO IA
 
- ## Resíduos Sólidos - Back-End
+ ## Registro Uso IA - Back-End
  Backend para o Registramento sobre o Uso de IA(inteligência Artificial). O sistema permite cadastrar, listar, atualizar e excluir usuários e ocorrências.
  
  ---
