@@ -4,7 +4,7 @@ const cadastrar = async (req, res) => {
     try {
         const usuario = await usuarioModel.cadastrar(req.body);
 
-        res.status(201).json(usuario);
+        res.status(200).json(usuario);
     } catch (error) {
         res.status(500).json({ error: error.message });
     }
