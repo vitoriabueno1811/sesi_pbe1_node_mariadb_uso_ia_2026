@@ -24,11 +24,11 @@ const alterar = async (req, res) => {
     try {
         const resposta = await usuarioModel.alterar(req.body, req.params.id);
 
-        if (resposta.affectedRows == 1) {
-            res.status(200).end();
-        } else {
-            res.status(404).json({ error: "Usuario não encontrado" }).end();
-        }
+ if (resposta.affectedRows == 1) {
+    res.status(200).json({ mensagem: "Usuário alterado com sucesso!" });
+} else {
+    res.status(404).json({ error: "Usuario não encontrado" });
+}
     } catch (error) {
         res.status(500).json({ error: error.message }).end();
     }
