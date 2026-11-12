@@ -18,8 +18,9 @@ create table usoia (
     nivelRisco enum('Baixo','Medio','Alto') default('Baixo') not null,
     revisaoHumana boolean default(true) not null
 );
-alter table usoia add constraint fk_registra
-foreign key (usuarioId) references usuario(id);
+ALTER TABLE usoia DROP FOREIGN KEY fk_registra;
+ALTER TABLE usoia ADD CONSTRAINT fk_registra FOREIGN KEY (usuarioId) REFERENCES usuario(id) ON DELETE CASCADE;
+
 
 -- DML para inserir dados de exemplo nas tabelas
 insert into usuario (nome, email, senha) values

@@ -39,7 +39,7 @@ const excluir = async (req, res) => {
         const resposta = await usuarioModel.excluir(req.params.id);
 
         if (resposta.affectedRows == 1) {
-            res.status(200).end();
+            res.status(200).json({ mensagem: "Usuário excluído com sucesso!" });
         } else {
             res.status(404).json({ error: "Usuario não encontrado" }).end();
         }
