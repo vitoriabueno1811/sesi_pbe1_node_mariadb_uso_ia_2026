@@ -1,5 +1,5 @@
 
-const usoiaModel = require('../models/usoia.model');
+const usoiaModel= require('../models/usoia.models');
 
 const cadastrar = async (req, res) => {
     try {

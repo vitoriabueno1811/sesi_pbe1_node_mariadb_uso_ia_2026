@@ -1,5 +1,4 @@
-
-const usuarioModel = require('../models/usuario.model');
+const usuarioModel= require('../models/usuario.models');
 
 const cadastrar = async (req, res) => {
     try {

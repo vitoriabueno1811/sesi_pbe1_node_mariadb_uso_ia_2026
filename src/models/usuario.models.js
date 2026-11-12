@@ -1,4 +1,3 @@
-
 const con = require('../config/db');
 
 const cadastrar = async ({nome, email, senha}) => {
